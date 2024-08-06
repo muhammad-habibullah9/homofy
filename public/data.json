@@ -1,0 +1,122 @@
+[
+  {
+    "image": "https://i.ibb.co/zfk1xs8/01.jpg",
+    "estate_title": "Beautiful Family Home",
+    "id": "123456",
+    "segment_name": "Single-Family Home",
+    "description": "A lovely 4-bedroom house with a spacious garden and modern amenities.",
+    "price": "$450,000",
+    "status": "Sale",
+    "area": "2000 sq ft",
+    "location": "123 Main St, Springfield",
+    "facilities": ["Living Room", "Swimming Pool", "Kitchen"]
+  },
+  {
+    "image": "https://i.ibb.co/Zz7CcXT/02.jpg",
+    "estate_title": "Modern Apartment",
+    "id": "123457",
+    "segment_name": "Apartment",
+    "description": "A stylish 2-bedroom apartment in the heart of the city.",
+    "price": "$300,000",
+    "status": "Sale",
+    "area": "1200 sq ft",
+    "location": "456 Elm St, Metropolis",
+    "facilities": ["Living Room", "Gym", "Kitchen"]
+  },
+  {
+    "image": "https://i.ibb.co/jzfr5Mk/03.jpg",
+    "estate_title": "Cozy Townhouse",
+    "id": "123458",
+    "segment_name": "Townhouse",
+    "description": "A comfortable 3-bedroom townhouse with a private patio.",
+    "price": "$350,000",
+    "status": "Sale",
+    "area": "1500 sq ft",
+    "location": "789 Maple St, Smalltown",
+    "facilities": ["Living Room", "Garage", "Kitchen"]
+  },
+  {
+    "image": "https://i.ibb.co/zfDxbwc/04.jpg",
+    "estate_title": "Luxury Villa",
+    "id": "123459",
+    "segment_name": "Single-Family Home",
+    "description": "A luxurious 5-bedroom villa with a pool and garden.",
+    "price": "$1,200,000",
+    "status": "Sale",
+    "area": "3500 sq ft",
+    "location": "321 Oak St, Beverly Hills",
+    "facilities": ["Living Room", "Swimming Pool", "Kitchen", "Garage"]
+  },
+  {
+    "image": "https://i.ibb.co/PcWNk19/05.png",
+    "estate_title": "Student Housing",
+    "id": "123460",
+    "segment_name": "Apartment",
+    "description": "Affordable housing for students near the university.",
+    "price": "$800/month",
+    "status": "Rent",
+    "area": "800 sq ft",
+    "location": "654 Birch St, University Town",
+    "facilities": ["Living Room", "Study Area", "Kitchen"]
+  },
+  {
+    "image": "https://i.ibb.co/Xz4fcm4/06.jpg",
+    "estate_title": "Senior Living Community",
+    "id": "123461",
+    "segment_name": "Senior Living",
+    "description": "Comfortable living spaces for seniors with on-site healthcare.",
+    "price": "$2,000/month",
+    "status": "Rent",
+    "area": "900 sq ft",
+    "location": "987 Cedar St, Retirement Village",
+    "facilities": ["Living Room", "Healthcare Services", "Kitchen"]
+  },
+  {
+    "image": "https://i.ibb.co/sJsgJ7N/07.jpg",
+    "estate_title": "Beachfront Condo",
+    "id": "123462",
+    "segment_name": "Condo",
+    "description": "A beautiful condo with stunning ocean views.",
+    "price": "$600,000",
+    "status": "Sale",
+    "area": "1300 sq ft",
+    "location": "123 Ocean Dr, Seaside Town",
+    "facilities": ["Living Room", "Balcony", "Kitchen"]
+  },
+  {
+    "image": "https://i.ibb.co/CbVDrKq/08.jpg",
+    "estate_title": "Mountain Cabin",
+    "id": "123463",
+    "segment_name": "Cabin",
+    "description": "A cozy cabin perfect for winter getaways.",
+    "price": "$400,000",
+    "status": "Sale",
+    "area": "1400 sq ft",
+    "location": "456 Pine St, Mountain Retreat",
+    "facilities": ["Living Room", "Fireplace", "Kitchen"]
+  },
+  {
+    "image": "https://i.ibb.co/mT6pPFg/09.jpg",
+    "estate_title": "Urban Loft",
+    "id": "123464",
+    "segment_name": "Loft",
+    "description": "A chic loft in the city center, perfect for young professionals.",
+    "price": "$450,000",
+    "status": "Sale",
+    "area": "1100 sq ft",
+    "location": "789 Cedar St, Downtown",
+    "facilities": ["Living Room", "Rooftop Access", "Kitchen"]
+  },
+  {
+    "image": "https://i.ibb.co/JHFK1Lj/10.jpg",
+    "estate_title": "Countryside Cottage",
+    "id": "123465",
+    "segment_name": "Cottage",
+    "description": "A charming cottage in the countryside, ideal for a quiet retreat.",
+    "price": "$350,000",
+    "status": "Sale",
+    "area": "1000 sq ft",
+    "location": "321 Country Rd, Countryside",
+    "facilities": ["Living Room", "Garden", "Kitchen"]
+  }
+]

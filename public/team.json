@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Alice Johnson",
+    "phone": "+1-555-1234",
+    "photo": "alice.jpg",
+    "title": "Senior Real Estate Agent",
+    "bio": "Alice is a senior real estate agent with over 10 years of experience in the industry. She specializes in residential properties and has a deep understanding of the local market."
+  },
+  {
+    "name": "Bob Smith",
+    "phone": "+1-555-5678",
+    "photo": "bob.jpg",
+    "title": "Marketing Specialist",
+    "bio": "Bob is a marketing specialist who excels in creating effective marketing campaigns for real estate properties. He has a keen eye for detail and a passion for innovative marketing strategies."
+  },
+  {
+    "name": "Carol White",
+    "phone": "+1-555-8765",
+    "photo": "carol.jpg",
+    "title": "Property Manager",
+    "bio": "Carol is a property manager with extensive experience in managing both residential and commercial properties. She is known for her excellent organizational skills and dedication to her clients."
+  },
+  {
+    "name": "David Brown",
+    "phone": "+1-555-4321",
+    "photo": "david.jpg",
+    "title": "Customer Service Representative",
+    "bio": "David is a customer service representative who is committed to providing exceptional service to all clients. He is always ready to assist with any inquiries and ensure a smooth experience for everyone."
+  }
+]
