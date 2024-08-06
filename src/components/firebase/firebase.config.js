@@ -4,13 +4,14 @@ import { initializeApp } from "firebase/app";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+
 const firebaseConfig = {
-  apiKey: "AIzaSyCefLFW8O8zc73pP7vNecv5ER1cuQlD_3Y",
-  authDomain: "homofy-a7a63.firebaseapp.com",
-  projectId: "homofy-a7a63",
-  storageBucket: "homofy-a7a63.appspot.com",
-  messagingSenderId: "525010499764",
-  appId: "1:525010499764:web:e3f69b632a927395cd7fe1",
+  apiKey: import.meta.env.VITE_APIKEY,
+  authDomain: import.meta.env.VITE_AUTHDOMAIN,
+  projectId: import.meta.env.VITE_PROJECTID,
+  storageBucket: import.meta.env.VITE_STORAGEBUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGINGSENDERID,
+  appId: import.meta.env.VITE_APPID,
 };
 
 // Initialize Firebase
