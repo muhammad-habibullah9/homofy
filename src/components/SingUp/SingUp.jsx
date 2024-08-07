@@ -1,11 +1,13 @@
 import React, { useContext } from "react";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
+import { sendEmailVerification } from "firebase/auth";
 
 const SingUp = () => {
   const { createUser } = useContext(AuthContext);
+  const navigate = useNavigate();
 
   const handleRegister = (e) => {
     e.preventDefault();
@@ -19,7 +21,14 @@ const SingUp = () => {
     // Sing Up
     createUser(email, password)
       .then((result) => {
-        console.log(result);
+        const user = result.user;
+        console.log(user);
+
+        sendEmailVerification(result.user).then(() => {
+          alert("Please verify your email address.");
+        });
+        // navigate
+        navigate("/");
       })
       .catch((error) => {
         console.error(error);

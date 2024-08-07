@@ -4,6 +4,7 @@ import {
   createUserWithEmailAndPassword,
   getAuth,
   onAuthStateChanged,
+  sendEmailVerification,
   signInWithEmailAndPassword,
   signInWithPopup,
   signOut,
@@ -15,12 +16,15 @@ export const AuthContext = createContext(null);
 const AuthProvider = ({ children }) => {
   const auth = getAuth(app);
   const provider = new GoogleAuthProvider();
-
+  //register user
   const [user, setUser] = useState(null);
 
   const createUser = (email, password) => {
     return createUserWithEmailAndPassword(auth, email, password);
   };
+
+  // Email verification
+
   //login
   const logIn = (email, password) => {
     return signInWithEmailAndPassword(auth, email, password);
