@@ -77,7 +77,7 @@ const Contact = () => {
                 <span className="mb-1">Full name</span>
                 <input
                   type="text"
-                  placeholder="Leroy Jenkins"
+                  placeholder="Full Name"
                   className="block py-2 px-2 w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-fuchsia-600 dark:bg-gray-100"
                 />
               </label>
@@ -85,7 +85,7 @@ const Contact = () => {
                 <span className="mb-1">Email address</span>
                 <input
                   type="email"
-                  placeholder="leroy@jenkins.com"
+                  placeholder="Enter your Email"
                   className="block py-2 px-2 w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-fuchsia-600 dark:bg-gray-100"
                 />
               </label>
@@ -98,7 +98,7 @@ const Contact = () => {
               </label>
               <button
                 type="button"
-                className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 dark:bg-fuchsia-600 dark:text-gray-50 focus:dark:ring-fuchsia-600 hover:dark:ring-fuchsia-600"
+                className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 dark:bg-sky-500 dark:text-gray-50 focus:dark:ring-sky-700 hover:dark:ring-sky-700"
               >
                 Submit
               </button>
