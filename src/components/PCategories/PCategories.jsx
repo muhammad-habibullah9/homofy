@@ -13,50 +13,53 @@ const PCategories = () => {
           website.
         </p>
       </div>
-      {/* card */}
-      <div className="lg:flex gap-5">
-        <div className="card bg-base-100 shadow-xl">
+      {/* card-1 */}
+      <div className="lg:flex lg:gap-5 gap-6">
+        <div className="card bg-base-100 shadow-xl lg:w-96">
           <figure className="px-5 pt-5">
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              src="https://i.ibb.co/Xz4fcm4/06.jpg"
               alt=""
-              className="rounded-xl"
+              className="rounded-xl lg:h-40"
             />
           </figure>
           <div className="card-body items-center text-center">
             <h2 className="card-title">Single-Family Homes</h2>
           </div>
         </div>
-        <div className="card bg-base-100 shadow-xl">
+        {/* card-2 */}
+        <div className="card bg-base-100 shadow-xl lg:w-96">
           <figure className="px-5 pt-5">
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              src="https://i.ibb.co/sJsgJ7N/07.jpg"
               alt=""
-              className="rounded-xl"
+              className="rounded-xl lg:h-40"
             />
           </figure>
           <div className="card-body items-center text-center">
             <h2 className="card-title">Townhouses</h2>
           </div>
         </div>
-        <div className="card bg-base-100 shadow-xl">
+        {/* card-3 */}
+        <div className="card bg-base-100 shadow-xl lg:w-96">
           <figure className="px-5 pt-5">
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              src="https://i.ibb.co/CbVDrKq/08.jpg"
               alt=""
-              className="rounded-xl"
+              className="rounded-xl lg:h-40"
             />
           </figure>
           <div className="card-body items-center text-center">
             <h2 className="card-title">Multi-Family</h2>
           </div>
         </div>
-        <div className="card bg-base-100 shadow-xl">
+        {/* card-4 */}
+        <div className="card bg-base-100 shadow-xl lg:w-96">
           <figure className="px-5 pt-5">
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              src="https://i.ibb.co/mT6pPFg/09.jpg"
               alt=""
-              className="rounded-xl"
+              className="rounded-xl lg:h-40"
             />
           </figure>
           <div className="card-body items-center text-center">

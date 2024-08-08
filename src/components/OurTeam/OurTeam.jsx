@@ -26,7 +26,7 @@ const OurTeam = () => {
           <div className="p-8 sm:flex sm:space-x-6">
             <div className="flex-shrink-0 w-full mb-6 h-44 sm:h-32 sm:w-32 sm:mb-0">
               <img
-                src="https://source.unsplash.com/100x100/?portrait?1"
+                src="https://1.bp.blogspot.com/-c25g1-2Qt4o/WGJm8no8_MI/AAAAAAAAAfs/Ganbvfdi-CAgB5BMp__g4W89PgHP8CmqgCPcBGAYYCw/s6000/Business%2BDevelopment.jpg"
                 alt=""
                 className="object-cover object-center w-full h-full rounded bg-gray-500 dark:bg-gray-500"
               />
@@ -78,7 +78,7 @@ const OurTeam = () => {
           <div className="p-8 sm:flex sm:space-x-6">
             <div className="flex-shrink-0 w-full mb-6 h-44 sm:h-32 sm:w-32 sm:mb-0">
               <img
-                src="https://source.unsplash.com/100x100/?portrait?1"
+                src="https://metalldiz.ru/upload/resize_cache/iblock/afa/450_450_2/02gmpblzglo7fofoiz047auo3imxmunt.jpg"
                 alt=""
                 className="object-cover object-center w-full h-full rounded bg-gray-500 dark:bg-gray-500"
               />
@@ -131,7 +131,7 @@ const OurTeam = () => {
           <div className="p-8 sm:flex sm:space-x-6">
             <div className="flex-shrink-0 w-full mb-6 h-44 sm:h-32 sm:w-32 sm:mb-0">
               <img
-                src="https://source.unsplash.com/100x100/?portrait?1"
+                src="https://avatars.mds.yandex.net/i?id=00ec418fc46430fc023506a1a57483e6_l-4903276-images-thumbs&ref=rim&n=13&w=1136&h=1136"
                 alt=""
                 className="object-cover object-center w-full h-full rounded bg-gray-500 dark:bg-gray-500"
               />
@@ -184,7 +184,7 @@ const OurTeam = () => {
           <div className="p-8 sm:flex sm:space-x-6">
             <div className="flex-shrink-0 w-full mb-6 h-44 sm:h-32 sm:w-32 sm:mb-0">
               <img
-                src="https://source.unsplash.com/100x100/?portrait?1"
+                src="https://flirtic.com/media/photos/1/b/e/1bef4076421.jpg"
                 alt=""
                 className="object-cover object-center w-full h-full rounded bg-gray-500 dark:bg-gray-500"
               />
