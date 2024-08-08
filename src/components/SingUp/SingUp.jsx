@@ -31,6 +31,19 @@ const SingUp = () => {
     const password = from.get("password");
     console.log(name, email, password);
 
+    setRegistrarError("");
+
+    if (password.length < 6) {
+      setRegistrarError("Password must be at least 6 characters long");
+      return;
+    } else if (!/[A-Z]/.test(password)) {
+      setRegistrarError("Password must be at last one uppercase");
+      return;
+    } else if (!/[(?=.*\d)]/.test(password)) {
+      setRegistrarError("At least one digit ");
+      return;
+    }
+
     // Sing Up
     createUser(email, password)
       .then((result) => {
